@@ -1,0 +1,33 @@
+
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+
+
+
+  li {
+    flex-shrink: 2;
+    list-style: none;
+    padding: 1em;
+    transition: ease 0.3s;
+  }
+
+  a:hover {
+    color: lightgray;
+  }
+
+}
+
+
+/*@media screen and (min-width: 430px) {
+
+  ul.menu {
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+}*/

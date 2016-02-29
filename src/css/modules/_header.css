@@ -1,0 +1,29 @@
+
+
+
+.hero {
+  min-height: 90vh;
+  background-color: $offwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/reserve/D9xlw7UxTBqQw5sLf8cJ_reef%20insp-72.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=ec514d3347929b5b05ae5cc340eefc52");
+  background-size: cover;
+
+
+    h1, h2 {
+        font-weight: 200;
+        color: $color-main;
+      }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.8em;
+    }
+
+    h2 {
+      font-size: 1.1em;
+      opacity: 0.8;
+    }
+}
